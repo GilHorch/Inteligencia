@@ -89,6 +89,9 @@ function mostraPergunta() {
 }
 
 function mostraAlternativas(){
+historiaFinal;//gilmar
+    caixaPerguntas.textContent = "Resultad0"//gilmar
+
     for(const alternativa of perguntaAtual.alternativas) {
         const botaoAlternativas = document.createElement("button");
         botaoAlternativas.textContent = alternativa.texto;
